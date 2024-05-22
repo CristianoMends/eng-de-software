@@ -1,8 +1,4 @@
-<style>
-    *{
-        overflow:hidden;
-    }
-</style>
+
 <header align=center>
     <h1>
         Engenharia Software
@@ -24,7 +20,7 @@ Aqui, você pode explorar o conteúdo dos meus estudos em Engenharia e Desenvolv
 |[JavaScript](JavaScript/main.md)| Linguagem JavaScript
 |[Cors](Cors/main.md)| Cross-Origin Resource Sharing |
 
-<footer align=center style="width:100vw;position:absolute;bottom:0">
+<footer align=center style="width:100%;position:absolute;bottom:0">
         <span>Created by</span><br>
         <span><a href="https://cristianomendes.vercel.app/" target="_blank" rel="noopener noreferrer">Cristiano Mendes | Software Engineer</a>
         </span>
