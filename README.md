@@ -15,5 +15,6 @@ Aqui, você pode explorar o conteúdo dos meus estudos em Engenharia e Desenvolv
 |   | |
 | ------------- |-|
 |[<img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" width=50px>](React/main.md)  | Framework React
-|[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>](JavaScript/main.md)| JavaScript
-|[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"/>](/azure/main.md) | Miscrosoft Azure 
+|[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width=50px>](JavaScript/main.md)| JavaScript
+|[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width=50px>](/azure/main.md) | Miscrosoft Azure 
+[Cors](/Cors/main.md) | Cross origin
