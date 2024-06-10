@@ -66,6 +66,7 @@ print("Olá Mundo")
 ### Paradigmas
 
 POO é um paradigma de programação que utiliza "objetos" – instâncias de classes – para modelar e organizar o código de software de forma mais próxima à realidade. Seu principal objetivo é aumentar a modularidade, reusabilidade e manutenção do código.
+
 [voltar ao topo](#poo---programação-orientada-a-objetos-com-java)
 
 ---
@@ -73,10 +74,10 @@ POO é um paradigma de programação que utiliza "objetos" – instâncias de cl
 ## Pilares de POO
 
 ### Herança
-![](heranca.png)
+![](assets/heranca.png)
 
 ### Polimorfismo  
-![](polimorfismo.png)
+![](assets/polimorfismo.png)
 Cada animal possui seus proprios métodos e metodos da superclasse personalizados
 ### Encapsulamento
 ### Abstração
@@ -115,6 +116,7 @@ São os comportamentos, é toda parte comportamental que um objeto dispõe.
         }
     }
 ```
+
 [voltar ao topo](#poo---programação-orientada-a-objetos-com-java)
 
 ---
