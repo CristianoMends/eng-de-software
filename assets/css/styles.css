@@ -15,19 +15,10 @@ main{
 h1{
     text-align: center;
 }
-/* Estilo para blocos de código em Markdown */
 pre {
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    overflow: auto;
+    display: flex;
+    width: max-content;
 }
-
-code {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
 header{
     background-color: #111;
     top: 0;
