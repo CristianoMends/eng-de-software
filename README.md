@@ -1,8 +1,4 @@
----
-layout: post
-title: "Engenharia e Desenvolvimento de Software"
-date: 2024-06-10
----
+
 # Engenharia e Desenvolvimento de Software
 
 <div align="center">
