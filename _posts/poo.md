@@ -36,7 +36,7 @@ Exemplo: Assembly e C
 **Olá Mundo em Assembly**
 
 Assembly é uma linguagem de baixo nível, o que significa que está mais próxima do código de máquina e requer um conhecimento detalhado da arquitetura do processador. Aqui está um exemplo de "Olá Mundo" em Assembly x86 para sistemas operacionais Unix-like (Linux).
-~~~~assembly
+```assembly
 section .data
     hello db 'Olá Mundo', 0
 
@@ -53,14 +53,14 @@ _start:
     mov ebx, 0
     mov eax, 1
     int 0x80
-~~~~
+```
 
 **Olá Mundo em Python**
 
 Python é uma linguagem de alto nível, projetada para ser fácil de ler e escrever. Aqui está o mesmo exemplo em Python:
-~~~~python
+```python
 print("Olá Mundo")
-~~~~
+```
 
 ### Paradigmas
 
@@ -420,6 +420,7 @@ public class Exemplo {
 ##### Métodos Estáticos:
 Podem ser chamados sem criar uma instância da classe.
 ##### Exemplo: método utilitário para calcular uma operação.
+
 ```java
 public class Util {
     public static int soma(int a, int b) {
