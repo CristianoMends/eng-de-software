@@ -403,8 +403,6 @@ Ele é usado para distinguir entre atributos/métodos da classe e parâmetros co
 ---
 
 ### Static
-Este é um {c:#B81365}texto colorido com hexadecimal{/c} 
-
 
 Em Java, a palavra-chave static é usada para criar variáveis e métodos que pertencem à própria classe, não a instâncias específicas da classe.
 
@@ -412,6 +410,7 @@ Em Java, a palavra-chave static é usada para criar variáveis e métodos que pe
 ##### Atributos Estáticos:
 São compartilhados por todas as instâncias da classe.
 ##### Exemplo: contador de objetos criados.
+
 ```java
 public class Exemplo {
     public static int contador = 0;
