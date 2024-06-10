@@ -6,8 +6,8 @@ layout: default
     </div>
 
 ## Conteúdo
-- [React](_posts/react.md)
-- [JavaScript](_posts/js.md)
-- [Miscrosoft Azure](_posts/azure.md)
-- [Cors (Cross-Origin Resource Sharing)](_posts/cors.md)
-- [Programação Orientada a Objetos](_posts/poo.md)
+- [React](posts/react.md)
+- [JavaScript](posts/js.md)
+- [Miscrosoft Azure](posts/azure.md)
+- [Cors (Cross-Origin Resource Sharing)](posts/cors.md)
+- [Programação Orientada a Objetos](posts/poo.md)
