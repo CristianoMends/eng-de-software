@@ -58,6 +58,7 @@ _start:
 **Olá Mundo em Python**
 
 Python é uma linguagem de alto nível, projetada para ser fácil de ler e escrever. Aqui está o mesmo exemplo em Python:
+
 ```python
 print("Olá Mundo")
 ```
