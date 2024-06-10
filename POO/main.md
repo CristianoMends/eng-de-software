@@ -2,18 +2,25 @@
 
 - [Conceitos de POO](#conceitos-de-poo)
 - [Pilares de POO](#pilares-de-poo)
-  - [Herança]
-  - [Encapsulamento]
-  - [Abstração]
-  - [Interface]
-  - [Polimorfismo]   
+  - [Herança](#herança)
+  - [Polimorfismo](#polimorfismo)   
+  - [Encapsulamento](#encapsulamento)
+  - [Abstração](#abstração)
+  - [Interface](#interface)
 - [Classes](#classes)
 - [Pacotes](#pacotes)
 - [Visibilidade](#visibilidade)
 - [Getters e Setters](#métodos-getters-e-setters)
 - [Construtores](#construtores)
-- [This](#this)
-- [Static]()
+- [Palavras Reservadas](#palavras-reservadas)
+  - [This](#this)
+  - [Static](#static)
+  - [Final]
+  - [Super]
+  - [new]
+  - [implements]
+  - [extends]
+  - [instanceof]
 - [Enumeradores(enums)](#enumeradoresenums)
 - [Diagrama de Classes](#diagrama-de-classes)
 
@@ -359,8 +366,8 @@ public class Teste {
 [voltar ao topo](#poo---programação-orientada-a-objetos-com-java)
 
 ---
-
-## This
+## Palavras reservadas
+### This
 O this em Java é uma referência para o objeto atual em que o código está sendo executado. Ele pode ser usado em diferentes contextos para se referir a diferentes coisas.
 
 Usos Principais do this
@@ -395,24 +402,24 @@ Ele é usado para distinguir entre atributos/métodos da classe e parâmetros co
 
 ---
 
-## Membros Estáticos{c:red}
+### Static
 Este é um {c:#B81365}texto colorido com hexadecimal{/c} 
 
 
 Em Java, a palavra-chave static é usada para criar variáveis e métodos que pertencem à própria classe, não a instâncias específicas da classe.
 
-### Exemplos:
-#### Atributos Estáticos:
+#### Exemplos:
+##### Atributos Estáticos:
 São compartilhados por todas as instâncias da classe.
-#### Exemplo: contador de objetos criados.
+##### Exemplo: contador de objetos criados.
 ```java
 public class Exemplo {
     public static int contador = 0;
 }
 ```
-#### Métodos Estáticos:
+##### Métodos Estáticos:
 Podem ser chamados sem criar uma instância da classe.
-#### Exemplo: método utilitário para calcular uma operação.
+##### Exemplo: método utilitário para calcular uma operação.
 ```java
 public class Util {
     public static int soma(int a, int b) {
@@ -420,18 +427,18 @@ public class Util {
     }
 }
 ```
-#### Acesso aos Membros Estáticos:
-#### Atributos Estáticos:
+##### Acesso aos Membros Estáticos:
+##### Atributos Estáticos:
 Acessados usando o nome da classe.
 ```java
 int valor = Exemplo.contador;
 ```
-#### Métodos Estáticos:
+##### Métodos Estáticos:
 Chamados usando o nome da classe.
 ```java
 int resultado = Util.soma(3, 5);
 ```
-#### Quando Usar Membros Estáticos:
+##### Quando Usar Membros Estáticos:
 - Quando você precisa compartilhar valores entre todas as instâncias da classe.
 - Para métodos utilitários que não dependem do estado de um objeto específico.
 #### Resumo:

@@ -8,6 +8,6 @@
 ## Conteúdo
 - [React](React/main.md)
 - [JavaScript](JavaScript/main.md)
-- [Miscrosoft Azure](/azure/main.md)
-- [Cors (Cross-Origin Resource Sharing)](/Cors/main.md)
-- [Programação Orientada a Objetos](poo/main.md)
+- [Miscrosoft Azure](azure/main.md)
+- [Cors (Cross-Origin Resource Sharing)](Cors/main.md)
+- [Programação Orientada a Objetos](POO/main.md)
