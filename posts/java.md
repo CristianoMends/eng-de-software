@@ -1,6 +1,6 @@
-# Java
 
-<img width=50% src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+![](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg)
+# Java
 
 - [Programação Orientada a Objetos](java/poo.md)
 - [Stream Api](java/stream.md)
