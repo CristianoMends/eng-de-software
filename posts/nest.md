@@ -1,4 +1,7 @@
 # NestJs
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" />
+          
 ## Iniciando Projeto Nest
 Instalar NestJs
 ```bash

@@ -5,8 +5,10 @@
     </div>
 
 ## Conteúdo
-- [React](React/main.md)
-- [JavaScript](javascript/main.md)
-- [Miscrosoft Azure](azure/main.md)
-- [Cors (Cross-Origin Resource Sharing)](Cors/main.md)
-- [Programação Orientada a Objetos](POO/main.md)
+- [React](posts/react.md)
+- [NestJs](posts/nest.md)
+- [Miscrosoft Azure](posts/azure.md)
+- [JavaScript](posts/js.md)
+- [Java](posts/java.md)
+- [Cors (Cross-Origin Resource Sharing)](posts/cors.md)
+- [MongoDB](posts/mongo.md)
