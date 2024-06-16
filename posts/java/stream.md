@@ -13,8 +13,8 @@ Java Stream é uma sequência de elementos que suporta operações de agregaçã
 - Possibilidade de Paralelismo: Muitas operações de Stream são projetadas para facilitar a execução paralela, melhorando o desempenho em sistemas com vários núcleos de processamento.
 
 ### Sintaxe
-```java
 
+```java
 List<Integer> numerosParesAoQuadrado = numeros.stream()       // Obtendo um Stream a partir da lista
                                                 .filter(n -> n % 2 == 0)  // Filtrando números pares
                                                 .map(n -> n * n)          // Mapeando para o quadrado de cada número
@@ -28,8 +28,8 @@ List<Integer> numerosParesAoQuadrado = numeros.stream()       // Obtendo um Stre
 O método filter() é usado para filtrar elementos com base em um predicado. Ele retorna um Stream contendo apenas os elementos que satisfazem o predicado especificado.
 
 Exemplo:
-```java
 
+```java
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -51,8 +51,8 @@ public class ExemploMetodosStream {
 O método map() transforma cada elemento do Stream aplicando uma função e retorna um novo Stream com os elementos transformados.
 
 Exemplo:
-```java
 
+```java
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -74,6 +74,7 @@ public class ExemploMetodosStream {
 O método sorted() classifica os elementos do Stream com base na ordem natural ou usando um Comparator personalizado e retorna um novo Stream com os elementos ordenados.
 
 Exemplo:
+
 ```java
 import java.util.Arrays;
 import java.util.List;
@@ -96,6 +97,7 @@ public class ExemploMetodosStream {
 O método collect() é usado para coletar os elementos do Stream em uma coleção específica, como List, Set ou Map.
 
 Exemplo:
+
 ```java
 import java.util.Arrays;
 import java.util.List;
@@ -118,6 +120,7 @@ public class ExemploMetodosStream {
 O método reduce() realiza uma redução dos elementos do Stream para retornar um único resultado. Pode ser usado para calcular soma, produto, concatenação, etc.
 
 Exemplo de soma:
+
 ```java
 import java.util.Arrays;
 import java.util.List;
