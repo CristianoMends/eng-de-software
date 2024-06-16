@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6,51 +6,45 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
-img{
+
+img {
     width: max-content;
     max-width: 100%;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 25px 0;
     background-color: #d4d4d4;
 }
-.book1{
-    border: 1px solid #111;
-    rotate: 5deg;
-    height: 80%;
-    width: 80%;
-}
-.book2{
-    border: 1px solid #111;
-    rotate: -2.5deg;
-}
-.book3{
+
+.section {
+    padding: 10px;
+    max-width: 700px;
     height: 80vh;
-    overflow-y: auto;
-    padding: 15px;
-    rotate: -2.5deg;
-}
-section{
-    max-width: 600px;
+    width: 80%;
     background-color: aliceblue;
     border: 1px solid #111;
 }
-*{
+
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
 }
+
 pre {
     display: flex;
     width: max-content;
     max-width: 90%;
     height: max-content;
 }
-header{
+
+header {
     background-color: #111;
     top: 0;
     color: #d4d4d4;
@@ -63,16 +57,40 @@ footer {
     flex-direction: column;
     gap: 10px;
     padding: 15px;
-  }
-  footer div{
+}
+
+footer div {
     opacity: 0.5;
-  }
-  .dev-container {
+}
+
+.dev-container {
     text-align: center;
-  }
-  @media (max-width: 599px) {
-    img{
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    left: 0px;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    gap: 5px;
+    height: 50%;
+    overflow: auto;
+    border: 1px solid black;
+}
+.content ol{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (max-width: 599px) {
+    img {
         width: 90%;
     }
-  
-  }
+
+}
