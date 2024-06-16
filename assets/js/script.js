@@ -16,7 +16,7 @@ const postList = document.getElementById('postList');
 posts.forEach(fileName => {
     const listItem = document.createElement('li');
     const link = document.createElement('a');
-    link.href = 'posts/' + fileName + '.html'
+    link.href = '/posts/' + fileName + '.html'
     link.textContent = fileName;
     listItem.appendChild(link);
     postList.appendChild(listItem);
