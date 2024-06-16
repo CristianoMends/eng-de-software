@@ -1,2 +1,5 @@
-title: Engenharia e Desenvolvimento de Software
-description: Repositorio para armazenar todo conteúdo que julgo relevante aprendido durante meu estudo em Engenharia de software
+collections:
+  posts:
+    output: true
+    permalink: /posts/:path/
+
