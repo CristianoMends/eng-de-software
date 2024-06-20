@@ -79,7 +79,8 @@ pre {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 10px;
     background-color: #111;
     top: 0;
     color: #d4d4d4;
