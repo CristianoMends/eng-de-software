@@ -1,3 +1,4 @@
+![](assets/pilares.jpg);
 # POO - Programação Orientada a Objetos com Java
 
 - [Conceitos de POO](#conceitos-de-poo)
@@ -6,7 +7,6 @@
   - [Polimorfismo](#polimorfismo)   
   - [Encapsulamento](#encapsulamento)
   - [Abstração](#abstração)
-  - [Interface](#interface)
 - [Classes](#classes)
 - [Pacotes](#pacotes)
 - [Visibilidade](#visibilidade)
@@ -15,12 +15,12 @@
 - [Palavras Reservadas](#palavras-reservadas)
   - [This](#this)
   - [Static](#static)
-  - [Final]
-  - [Super]
-  - [new]
-  - [implements]
-  - [extends]
-  - [instanceof]
+  - [Final](#final)
+  - [Super](#super)
+  - [new](#new)
+  - [implements](#implements)
+  - [extends](#extends)
+  - [instanceof](#instanceof)
 - [Enumeradores(enums)](#enumeradoresenums)
 - [Diagrama de Classes](#diagrama-de-classes)
 
@@ -72,16 +72,40 @@ POO é um paradigma de programação que utiliza "objetos" – instâncias de cl
 ---
 
 ## Pilares de POO
+![](assets/pilares.jpg);
 
 ### Herança
 ![](assets/heranca.png)
+Herança permite que uma classe herde caracteristicas(atributos) e comportamentos(métodos) de outra classe, promovendo a reutilização de código.
+
+#### Como Funciona em Java:
+
+- Usamos a palavra-chave **extends** para indicar que uma classe herda de outra.
+- A classe que herda é chamada de subclasse ou classe derivada, e a classe herdada é chamada de superclasse ou classe base.
 
 ### Polimorfismo  
 ![](assets/polimorfismo.png)
 Cada animal possui seus proprios métodos e metodos da superclasse personalizados
+
+Polimorfismo é a capacidade de um método agir de diferentes formas com base no objeto que a invoca.
+
+#### Como Funciona em Java:
+
+O polimorfismo pode ser alcançado através da sobrecarga de métodos (mesmo nome, diferentes parâmetros) ou da sobrescrita de métodos (subclasses fornecendo implementações específicas de métodos da superclasse).
+
 ### Encapsulamento
+Encapsulamento é o princípio de esconder os detalhes internos de um objeto e expor apenas o necessário para a interação com ele.
+
+#### Como Funciona em Java:
+
+- Usamos modificadores de acesso (private, protected, public) para controlar a visibilidade dos atributos e métodos de uma classe.
+- Atributos de uma classe geralmente são definidos como private e acessados através de métodos getter e setter.
 ### Abstração
-### Interface
+Abstração é o conceito de simplificar complexidade ocultando detalhes irrelevantes e expondo apenas os aspectos essenciais.
+
+#### Como Funciona em Java:
+
+- Usamos classes abstratas (abstract) e interfaces para definir métodos que devem ser implementados por classes concretas.
 
 [voltar ao topo](#poo---programação-orientada-a-objetos-com-java)
 
@@ -450,6 +474,158 @@ int resultado = Util.soma(3, 5);
 - Eles são acessados usando o nome da classe, não o nome do objeto.
 [voltar ao topo](#poo---programação-orientada-a-objetos-com-java)
 
+---
+
+### Final
+A palavra-chave final em Java é usada para declarar constantes ou para prevenir a modificação de classes, métodos ou variáveis.
+
+#### Usos:
+
+- Variáveis: Uma variável final não pode ser modificada após ser inicializada.
+
+```java
+final int idade = 30;
+// idade = 40; // Isto causaria um erro de compilação
+```
+- Métodos: Um método final não pode ser sobrescrito por subclasses.
+
+```java
+public class Animal {
+    public final void dormir() {
+        System.out.println("Dormindo...");
+    }
+}
+```
+- Classes: Uma classe final não pode ser estendida por outras classes.
+
+```java
+public final class Pessoa {
+    // Esta classe não pode ser estendida
+}
+```
+---
+
+### Super
+A palavra-chave super é usada para acessar membros (atributos e métodos) da superclasse imediata da classe atual.
+
+#### Usos:
+
+- Acessar Métodos da Superclasse:
+
+```java
+public class Animal {
+    public void fazerSom() {
+        System.out.println("O animal faz um som");
+    }
+}
+
+public class Cachorro extends Animal {
+    @Override
+    public void fazerSom() {
+        super.fazerSom(); // Chama o método da superclasse
+        System.out.println("O cachorro late");
+    }
+}
+```
+- Chamar o Construtor da Superclasse:
+
+```java
+public class Animal {
+    public Animal(String nome) {
+        System.out.println("Animal: " + nome);
+    }
+}
+
+public class Cachorro extends Animal {
+    public Cachorro(String nome) {
+        super(nome); // Chama o construtor da superclasse
+    }
+}
+```
+---
+
+### new
+A palavra-chave new é usada para criar novas instâncias de objetos.
+
+#### Uso:
+
+```java
+public class Pessoa {
+    String nome;
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+}
+
+public class Teste {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa("João"); // Cria um novo objeto Pessoa
+    }
+}
+```
+---
+
+### implements
+A palavra-chave implements é usada por uma classe para indicar que ela está implementando uma ou mais interfaces.
+
+#### Uso:
+
+```java
+public interface Animal {
+    void fazerSom();
+}
+
+public class Cachorro implements Animal {
+    @Override
+    public void fazerSom() {
+        System.out.println("O cachorro late");
+    }
+}
+```
+---
+
+### extends
+A palavra-chave extends é usada para indicar que uma classe está herdando de outra classe.
+
+#### Uso:
+
+```java
+public class Animal {
+    public void fazerSom() {
+        System.out.println("O animal faz um som");
+    }
+}
+
+public class Cachorro extends Animal {
+    @Override
+    public void fazerSom() {
+        System.out.println("O cachorro late");
+    }
+}
+```
+---
+
+### instanceof
+A palavra-chave instanceof é usada para testar se um objeto é uma instância de uma classe específica ou implementa uma interface específica.
+
+#### Uso:
+
+```java
+public class Animal {}
+
+public class Cachorro extends Animal {}
+
+public class Teste {
+    public static void main(String[] args) {
+        Animal animal = new Cachorro();
+        
+        if (animal instanceof Cachorro) {
+            System.out.println("animal é uma instância de Cachorro");
+        }
+    }
+}
+```
 ---
 
 ## Enumeradores(enums)
