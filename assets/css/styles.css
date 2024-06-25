@@ -15,9 +15,9 @@ img {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: start;
-    padding: 25px 0;
+    padding: 25px;
     background-color: #d4d4d4;
 }
 header nav{
@@ -46,20 +46,25 @@ header nav a:hover{
     height: max-content;
     width: 80%;
     background-color: aliceblue;
-    border: 1px solid #111;
+    border: 1px solid #11111176;
+    border-radius: 5px;
 }
 .section .p{
     text-align: start;
 }
 ol{
-    border-bottom: 1px solid;
     width: 100%;
     text-overflow: ellipsis;
 }
+li{
+    margin-top: 5px;
+}
 ol div{
+    margin-top: 15px;
     border-bottom: 1px solid;
     font-weight: bold;
 }
+
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -113,7 +118,8 @@ footer div {
     padding: 10px;
     gap: 5px;
     height: 50%;
-    border: 1px solid black;
+    border: 1px solid #11111176;
+    border-radius: 5px;
     overflow-x: hidden;
 
 }
