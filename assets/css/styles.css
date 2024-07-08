@@ -68,7 +68,7 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     padding: 25px;
-    background-color: #fff;
+    background-color: #404040;
     flex-grow: 1;
     min-height: 95vh;
 }
